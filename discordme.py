@@ -24,9 +24,6 @@ bot_status = "!help | Attempting to support you."
 
 Client = discord.Client()
 bot = commands.Bot(command_prefix = bot_prefix, case_insensitive=True)
-#######################################
-###        ON_READY() EVENT         ###
-#######################################
 
 @bot.event
 async def on_ready():
